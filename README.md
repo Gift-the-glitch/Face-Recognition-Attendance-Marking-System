@@ -1,6 +1,3 @@
-# Face-Recognition-Attendance-Marking-System
-Face Recognition System  A Python-based face recognition app using OpenCV and face_recognition to identify faces in images and real-time video. It logs recognized faces with timestamps, useful for attendance tracking. Features a simple tkinter GUI for image uploads, live recognition, and result display.
-
 # Face Recognition System
 
 This project is a Python-based face recognition system that uses a pre-trained model to recognize faces in both uploaded images and live webcam feeds. It also logs attendance with timestamps for each recognized face in a CSV file.
@@ -20,7 +17,7 @@ To get started, clone this repository and install the dependencies listed below.
    pip install face_recognition numpy opencv-python pillow
 Note: face_recognition depends on dlib, which may require additional installation steps on some systems.
 
-Update Paths:
+####Update Paths:
 
 Place your known face images in a folder and update the file paths in load_known_faces() function in main.py.
 
